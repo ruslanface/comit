@@ -17,4 +17,4 @@ def get_user_greeting(name):
     """
     Функция должна возвращать приветствие.
     """
-    return f"Превет, {name}!"
+    return f"Привет, {name}!"
