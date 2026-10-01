@@ -8,6 +8,8 @@ def divide_prices(price1, price2):
     """
     Функция должна делить одну цену на другую.
     """
+    if price2 == 0:
+        return "Ошибка: деление на ноль"
     return price1 / price2
 
 
